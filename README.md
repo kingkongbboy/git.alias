@@ -125,4 +125,21 @@ https://user-images.githubusercontent.com/6315361/187614955-1a5dd0c3-8856-4255-9
 
 * 不需要重新切回 feature__demo 才執行指令 git gg 
 
- 
+***
+
+#### GIT 分支線圖 成果
+----------------
+
+<img width="1787" alt="git alias demo result" src="https://user-images.githubusercontent.com/6315361/187618127-be2f92ea-cd96-4803-adce-def379e30a9e.png">
+
+
+***
+
+#### 歡迎請我喝杯咖啡  ☕ ❤️ 😍
+----------------
+
+USDT Tron (TRC20) 錢包地址  
+  
+TVaJYd7DyqJ8hYVgpaZkWJs6oDnscyvbEm
+    
+<img width="300px" height="300px" alt="USDT Tron (TRC20) address" src="https://user-images.githubusercontent.com/6315361/187622580-053baf74-9114-43b7-be39-aefa34bf410e.png">
