@@ -125,4 +125,9 @@ https://user-images.githubusercontent.com/6315361/187614955-1a5dd0c3-8856-4255-9
 
 * 不需要重新切回 feature__demo 才執行指令 git gg 
 
- 
+***
+
+#### GIT 分支線圖 成果
+----------------
+
+<img width="1787" alt="git alias demo result" src="https://user-images.githubusercontent.com/6315361/187618127-be2f92ea-cd96-4803-adce-def379e30a9e.png">
