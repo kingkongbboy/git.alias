@@ -8,7 +8,8 @@ git config --global alias.gg '!$(if [ $1 ] ; then target_branch=$1; else target_
 ***
 
 
-#指令流程  
+ #### 指令流程
+ ----------------
   
 * 判斷是否有輸入 分支名稱
 
@@ -47,7 +48,9 @@ git config --global alias.gg '!$(if [ $1 ] ; then target_branch=$1; else target_
 ***
 
 
-#使用方式  
+
+ #### 使用方式1: 偵測目前分支
+ ----------------
 
 * 開啟 terminal 終端機
 
@@ -74,9 +77,25 @@ git config --global alias.gg '!$(if [ $1 ] ; then target_branch=$1; else target_
 ***
 
 
-#影片 DEMO  
+ #### 影片 DEMO
+ ----------------
 
 https://user-images.githubusercontent.com/6315361/187609174-a5b48585-6ca7-45db-bef0-54caf0f5635c.mov
 
 
 
+***
+
+
+ #### 使用方式2: 合併指定分支
+ ----------------
+
+
+* 在終端機內，執行 cd xxxx 切換目前位置到專案路徑內
+
+* 在數個 commit 指令之後，目前處理的功能區塊，告一段落
+
+* 在終端機內，輸入 git gg {{ custom_branch_name | 指定分支名稱 }}
+  >git gg feature__demo
+
+* 完成！
