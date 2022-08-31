@@ -8,8 +8,8 @@ git config --global alias.gg '!$(if [ $1 ] ; then target_branch=$1; else target_
 ***
 
 
- #### 指令流程
- ----------------
+#### 指令流程
+----------------
   
 * 判斷是否有輸入 分支名稱
 
@@ -49,8 +49,8 @@ git config --global alias.gg '!$(if [ $1 ] ; then target_branch=$1; else target_
 
 
 
- #### 使用方式1: 偵測目前分支
- ----------------
+#### 使用方式1: 偵測目前分支
+----------------
 
 * 開啟 terminal 終端機
 
@@ -77,8 +77,8 @@ git config --global alias.gg '!$(if [ $1 ] ; then target_branch=$1; else target_
 ***
 
 
- #### 影片 DEMO
- ----------------
+#### 影片 DEMO
+----------------
 
 https://user-images.githubusercontent.com/6315361/187609174-a5b48585-6ca7-45db-bef0-54caf0f5635c.mov
 
@@ -87,8 +87,8 @@ https://user-images.githubusercontent.com/6315361/187609174-a5b48585-6ca7-45db-b
 ***
 
 
- #### 使用方式2: 合併指定分支
- ----------------
+#### 使用方式2: 合併指定分支
+----------------
 
 
 * 在終端機內，執行 cd xxxx 切換目前位置到專案路徑內
@@ -99,3 +99,30 @@ https://user-images.githubusercontent.com/6315361/187609174-a5b48585-6ca7-45db-b
   >git gg feature__demo
 
 * 完成！
+
+***
+
+#### 影片 DEMO 2
+----------------
+
+https://user-images.githubusercontent.com/6315361/187614955-1a5dd0c3-8856-4255-9447-89bd9f21f2cb.mov
+
+***
+
+#### 使用方式2: 使用情境
+----------------
+
+
+* 當同時有多個分支，互相切換，並各自都有提交 commit
+
+* 假設目前分支位置在 master or feature__xxx
+
+* 分支 feature__demo 已提交 commit 並確認 目前工作段落已完成
+
+* 就可以在 master 或 其他分支
+
+* 指定 feature__demo 合併至 develop
+
+* 不需要重新切回 feature__demo 才執行指令 git gg 
+
+ 
